@@ -50,7 +50,12 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#Ultrasonic-sensor">Ultrasonic Sensor</a></li>
+        <li>
+          <a href="#Ultrasonic-sensor">Ultrasonic Sensor</a>
+             <ul>
+               <li><a href="#Code">C Code</a></li>
+             </ul>
+        </li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
