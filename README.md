@@ -16,9 +16,8 @@
 
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src=https://user-images.githubusercontent.com/54024838/183236427-fb8f542f-3cfa-4f5e-8f01-a7178bebbb9c.png alt="Logo" width="300">
-  </a>
+
+  <img src=https://user-images.githubusercontent.com/54024838/183236427-fb8f542f-3cfa-4f5e-8f01-a7178bebbb9c.png alt="Logo" width="300">
 
   <h1 align="center">Smart-Drawer</h1>
 
