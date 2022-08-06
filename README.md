@@ -108,7 +108,7 @@ For this project, we used HC-SR04 ultra sonic sensor. Ultrasonic sensors (or tra
 
 ### Code:
 
-``` 
+```C
 long timer = 0, xTimer = 0;
 float pulsa, distance;
 // Timer1 overflow interrupt service routine
