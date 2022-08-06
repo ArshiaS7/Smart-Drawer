@@ -53,7 +53,7 @@
         <li>
           <a href="#Ultrasonic-sensor">Ultrasonic Sensor</a>
              <ul list-style-type: upper-latin>
-               <li><a href="#C-Code">C Code</a></li>
+               <li><a href="#Code">C Code</a></li>
              </ul>
         </li>
       </ul>
