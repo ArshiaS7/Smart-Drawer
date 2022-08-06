@@ -50,7 +50,7 @@
     <li>
       <a href="#getting-started">Getting Started</a>
       <ul>
-        <li><a href="#prerequisites">Ultrasonic Sensor</a></li>
+        <li><a href="#Ultrasonic-sensor">Ultrasonic Sensor</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
