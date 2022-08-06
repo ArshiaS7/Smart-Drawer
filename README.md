@@ -1,5 +1,85 @@
-# Smart-Drawer
-Smart-Drawer with Stepper motor interfacing AVR MicroController &amp; Ultrasonic Sensor
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+-->
+
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src=https://user-images.githubusercontent.com/54024838/183236427-fb8f542f-3cfa-4f5e-8f01-a7178bebbb9c.png alt="Logo" width="300">
+  </a>
+
+  <h1 align="center">Smart-Drawer</h1>
+
+  <p align="center">
+  Smart-Drawer with Stepper motor interfacing AVR MicroController & Ultrasonic Sensor
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    .
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    .
+    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+Handsfree-Drawer allows you to open and close drawer without the interference of any handles.
+
+
+### Built With
+
+Componenets and Modules which were used in this project, are listed as follow:
+
+- HC-SR04 Ultrasonic Sensor
+- ATmega16A Microcontroller
+- STP-58D Unipolar Stepper Motor
+- TB6600 Stepper MicroDriver
+
+
 
 #### Ultrasonic Sensor
 - For this project, we used HC-SR04 ultra sonic sensor.
@@ -10,7 +90,8 @@ Smart-Drawer with Stepper motor interfacing AVR MicroController &amp; Ultrasonic
 <br> ![Figure-2](https://user-images.githubusercontent.com/47887796/182788257-ed91de5a-b888-429a-900a-bd455d68451f.png)
 
 - For the code, we have to enable intrupt and write a function to measure distance:
-``` long timer = 0, xTimer = 0;
+``` 
+long timer = 0, xTimer = 0;
 float pulsa, distance;
 // Timer1 overflow interrupt service routine
 interrupt [TIM1_OVF] void timer1_ovf_isr(void)
@@ -30,3 +111,4 @@ void ultra() {
    pulsa = (float)xTimer * 65535 * 0.5 + (float)timer * 0.5;   
    distance = pulsa / 29.034 / 2;   
 }
+```
