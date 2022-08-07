@@ -131,6 +131,9 @@ void ultra() {
 }
 ```
 
-ttt:
+Stepper-Motor's Rotation Testing:
 
-https://user-images.githubusercontent.com/54024838/183274233-89dd7d67-6a0a-4100-8912-8042ebeaa0d6.mp4
+https://user-images.githubusercontent.com/54024838/183274727-bf453700-0ca5-4054-9dc6-d71cd679b3d7.mp4
+
+
+
