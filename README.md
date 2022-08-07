@@ -131,17 +131,6 @@ void ultra() {
 }
 ```
 
+ttt:
 
-
-
-
-
-
-
-
-
-<video width="320" height="240" controls>
-  <source src="https://user-images.githubusercontent.com/54024838/183274233-89dd7d67-6a0a-4100-8912-8042ebeaa0d6.mp4
-" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+https://user-images.githubusercontent.com/54024838/183274233-89dd7d67-6a0a-4100-8912-8042ebeaa0d6.mp4
